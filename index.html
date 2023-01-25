@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bullyproof Campaign</title>
+    <link rel="stylesheet"  href="css/main.css">
+  </head>
+  <body>
+    <header>
+        <header>
+            <h1>Bullyproof Campaign</h1>
+            <button id="menu-toggle">&#9776;</button>
+            <nav id="menu">
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About the Bullyproof Campaign</h2>
+            <p>The Bullyproof Campaign is dedicated to ending the bullying cycle in hockey. Our goal is to create a safe and inclusive environment for all players and coaches, regardless of their background or skill level.</p>
+            <p>We accomplish this through education, awareness, and support. We provide resources for players and coaches to learn about the impact of bullying, how to recognize it, and how to prevent it. We also provide support for those who have been affected by bullying, through counseling and mentorship programs.</p>
+            <p>Join us in our mission to make hockey a bully-free sport.</p>
+          </section>
+          
+          <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+              <li><a href="https://www.stopbullying.gov/">Stop Bullying</a></li>
+              <li><a href="https://www.pacer.org/bullying/resources/">PACER's National Bullying Prevention Center</a></li>
+              <li><a href="https://www.hockeycanada.ca/en-ca/safety/bullying-and-abuse">Hockey Canada - Bullying and Abuse</a></li>
+            </ul>
+          </section>
+          <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+              <img src="player1.jpg" alt="Player 1">
+              <p>"The Bullyproof Campaign helped me stand up for myself and others. I learned how to recognize and stop bullying in my team, and I feel much more confident and safe on and off the ice."</p>
+              <p><strong>Player 1</strong></p>
+            </div>
+            <div class="testimonial">
+              <img src="coach1.jpg" alt="Coach 1">
+              <p>"As a coach, I've seen the negative effects of bullying on my players. The Bullyproof Campaign has given me the tools and resources to create a positive and inclusive environment for all players."</p>
+              <p><strong>Coach 1</strong></p>
+            </div>
+            <div class="testimonial">
+              <img src="parent1.jpg" alt="Parent 1">
+              <p>"I was worried about my child being bullied in hockey, but thanks to the Bullyproof Campaign, I know that my child is in a safe and supportive environment."</p>
+              <p><strong>Parent 1</strong></p>
+            </div>
+          </section>
+                    
+      <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Anti-Bullying Workshop - January 30th</li>
+          <li>Bullyproof Summit - March 15th</li>
+        </ul>
+        <form id="event-registration" action="submit-registration.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="event">Event:</label>
+          <select id="event" name="event">
+            <option value="workshop">Anti-Bullying Workshop</option>
+            <option value="summit">Bullyproof Summit</option>
+          </select>
+          <input type="submit" value="Register">
+        </form>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="submit-contact.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright ©2021 Bullyproof Campaign</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>

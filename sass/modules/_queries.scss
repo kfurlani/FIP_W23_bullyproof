@@ -1,0 +1,84 @@
+ /* Responsive styles */
+ @media only screen and (max-width: 767px) {
+    #menu-toggle {
+      display: block;
+    }
+  
+    nav {
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+    }
+  
+    section {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    section form label {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+  
+    section form input[type="text"],
+    section form input[type="email"],
+    section form textarea {
+      max-width: 250px;
+    }
+  }
+  
+  /* Tablet styles */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    section {
+      margin: 15px;
+      padding: 15px;
+    }
+  
+    section form label {
+      max-width: 150px;
+    }
+  
+    section form input[type="text"],
+    section form input[type="email"],
+    section form textarea {
+      max-width: 350px;
+    }
+  }
+  
+  /* Desktop styles */
+  @media only screen and (min-width: 992px) {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+    }
+  
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+  
+    nav li {
+      margin-right: 20px;
+    }
+  
+    nav a {
+      color: #0077c8;
+      text-decoration: none;
+    }
+  
+    #menu-toggle {
+      display: none;
+    }
+  
+    #menu {
+      display: none;
+    }
+  }
+  
